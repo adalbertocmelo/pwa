@@ -38,9 +38,9 @@ document.getElementById('btnScheduleNotification').addEventListener('click', () 
 */
 
 var games = [
-	{name: 'app01'  , author: 'João' , slug: 'icon-144x144.png'},
-	{name: 'jogo 02', author: 'Paulo', slug: 'icon-144x144.png'},
-	{name: 'PWA 03' , author: 'Pedro', slug: 'icon-144x144.png'}
+	{name: 'app01'  , author: 'João' , slug: 'icon-48x48.png'},
+	{name: 'jogo 02', author: 'Paulo', slug: 'icon-48x48.png'},
+	{name: 'PWA 03' , author: 'Pedro', slug: 'icon-48x48.png'}
 ]
 
 
