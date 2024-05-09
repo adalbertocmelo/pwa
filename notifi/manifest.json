@@ -3,6 +3,11 @@
   "name": "Progressive Web App de Notificação",
   "icons": [
     {
+      "src": "icon-48x48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
       "src": "icon-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
