@@ -1,0 +1,21 @@
+{
+  "short_name": "Notifi",
+  "name": "Progressive Web App de Notificação",
+  "icons": [
+    {
+      "src": "icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon-144x144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    }
+  ],
+  "start_url": "index.html",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "scope": "/notifi/",
+  "theme_color": "#FFFFFF"
+}
