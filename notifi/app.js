@@ -35,9 +35,9 @@ document.getElementById('btnScheduleNotification').addEventListener('click', () 
 });
 
 var games = [
-	{name: 'app01'  , author: 'João' , slug: ''},
-	{name: 'jogo 02', author: 'Paulo', slug: ''},
-	{name: 'PWA 03' , author: 'Pedro', slug: ''}
+	{name: 'app01'  , author: 'João' , slug: 'icon-144x144.png'},
+	{name: 'jogo 02', author: 'Paulo', slug: 'icon-144x144.png'},
+	{name: 'PWA 03' , author: 'Pedro', slug: 'icon-144x144.png'}
 ]
 
 
@@ -45,7 +45,7 @@ function randomNotification() {
   const randomItem = Math.floor(Math.random() * games.length);
   const notifTitle = games[randomItem].name;
   const notifBody = `Created by ${games[randomItem].author}.`;
-  const notifImg = `data/img/${games[randomItem].slug}.jpg`;
+  const notifImg = `${games[randomItem].slug}.jpg`;
   const options = {
     body: notifBody,
     icon: notifImg,
@@ -53,3 +53,5 @@ function randomNotification() {
   new Notification(notifTitle, options);
   setTimeout(randomNotification, 30000);
 }
+
+randomNotification();
