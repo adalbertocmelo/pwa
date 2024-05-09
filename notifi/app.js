@@ -41,7 +41,7 @@ var games = [
 	{name: 'app01'  , author: 'João' , slug: 'icon-48x48.png'},
 	{name: 'jogo 02', author: 'Paulo', slug: 'icon-48x48.png'},
 	{name: 'PWA 03' , author: 'Pedro', slug: 'icon-48x48.png'}
-]
+];
 
 
 function randomNotification() {
@@ -51,7 +51,7 @@ function randomNotification() {
   const notifImg = `${games[randomItem].slug}`;
   const options = {
     body: notifBody,
-    icon: notifImg,
+    icon: notifImg
   };
   new Notification(notifTitle, options);
   setTimeout(randomNotification, 30000);
