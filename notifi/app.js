@@ -53,6 +53,7 @@ function randomNotification() {
     body: notifBody,
     icon: notifImg
   };
-  new Notification(notifTitle, options);
+	new Notification(notifTitle, options);
+	console.log('teste x');
   setTimeout(randomNotification, 30000);
 }
